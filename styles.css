@@ -1,0 +1,93 @@
+:root {
+    --first-color: #D264B6;
+    --opacity-first-color: rgba(210, 100, 182, 0.75); 
+    --second-color: #381D2A;
+    --opacity-second-color: rgba(56, 29, 42, 0.75);
+    --third-color: #3E6990;
+    --opacity-third-color: rgba(62, 105, 144, 0.75);
+    --white-color: #fff;
+    --font: 'Raleway', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--first-color);
+    text-align: center;
+}
+
+h1{
+    color: var(--white-color);
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+.boton-agregar:hover{
+    background-color: var(--opacity-second-color);
+}
+
+.boton-editar{
+    margin: 0 5px;
+    border: none;
+    background-color: var(--second-color);
+    color: var(--first-color);
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+
+.boton-remover{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--first-color);
+    background-color: var(--second-color);
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--white-color);
+    font-size: 18px;
+}
+
+.item{
+    margin: 10px;
+}
+
+.item-input{
+    width: 450px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 0;
+    
+}
+
